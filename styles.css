@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.colorBtn {
+    font-size: 2em;
+    border: 4px solid hsla(0, 0%, 30%, 0.6);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#greenBtn {
+    background-color: hsl(120, 100%, 40%);
+    color: white;
+}
+#greenBtn:hover {
+    background-color: hsl(120, 100%, 30%);
+}
+#redBtn {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+}
+#redBtn:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+#blueBtn {
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+}
+#blueBtn:hover {
+    background-color: hsl(240, 100%, 40%);
+}
+#randomBtn {
+    background-color: hsl(0, 0%, 100%);
+}
+#randomBtn:hover {
+    background-color: hsl(0, 0%, 60%);
+}
+
+#palindromeCheck {
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+
+#palindromeCheckLabel {
+    font-size: 1.5em;
+}
+
+#palindromeBtn {
+    font-size: 1.5em;
+}
+
+hr {
+    margin: 50px;
+}
+
+#quoteDiv {
+    height: 70px;
+    width: 600px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#quoteBtn {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+#todoBtn {
+    font-size: 1.5em;
+}
+
+#todoInput {
+    font-size: 1.5em;
+}
+
+#itemDiv {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
